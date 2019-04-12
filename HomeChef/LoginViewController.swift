@@ -19,12 +19,14 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func onTapLogin(_ sender: Any) {
+        
     func assignBackground() {
         let background = UIImage(named: "Background")
     }
     
     
     @IBAction func onTapSignup(_ sender: Any) {
+        
     func signIn(signIn: GIDSignIn!, didSignInForUser user: GIDGoogleUser!,
                 withError error: NSError!) {
         if (error == nil) {
