@@ -8,6 +8,6 @@ target 'HomeChef' do
   # Pods for HomeChef
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
-pod 'FBSDKLoginKit'
+pod 'GoogleSignIn'
 
 end
