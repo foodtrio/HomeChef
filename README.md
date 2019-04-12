@@ -103,4 +103,6 @@ This app will be designed to enable users to search and select from over a hundr
 * (Update/PUT) Update user profile image
 * (Update/PUT) Update user bio
 
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+**[OPTIONAL: List endpoints if using existing API such as Yelp]**
+* https://www.food2fork.com/api/search
+
