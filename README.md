@@ -79,12 +79,11 @@ This app will be designed to enable users to search and select from over a hundr
 ### Models
 ![Screen Shot 2019-04-11 at 9 17 00 PM](https://user-images.githubusercontent.com/42364123/56005607-404f3900-5c9f-11e9-829b-935942a09617.png)
 ### Networking
--Search Screen
-(Read/GET) Query posts by users’ keywords
-Recipe feed screen 
+* Search Screen
+- (Read/GET) Query posts by users’ keywords
+* Recipe feed screen 
 
-(Read/Get) : Query all posts that fall into the user inputted search category criteria. 
-
+1. (Read/Get) : Query all posts that fall into the user inputted search category criteria. 
 let query = PFQuery(className:"Recipe")
 query.whereKey("author", equalTo: currentUser)
 query.order(byDescending: "createdAt")
@@ -96,18 +95,21 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
    }
 }
 
-(Create/POST): create a like on a post by the user 
-(Delete) Delete existing likes. 
-Create Post Screen 
-(Create/POST) Create a new post object [specific to the user] 
-(Create/POST) User uploads images of food they’ve made using recipe 
-(Delete) User can delete a post
-Bookmark Screen 
-(Read/GET) Query posts that users save
-(Delete) Delete a bookmark.
-Profile Screen 
-(Read/GET) Query logged in user object
-(Update/PUT) Update user profile image
-(Update/PUT) Update user bio
+2. (Create/POST): create a like on a post by the user 
+3. (Delete) Delete existing likes.
+
+* Create Post Screen 
+1. (Create/POST) Create a new post object [specific to the user] 
+2. (Create/POST) User uploads images of food they’ve made using recipe 
+3. (Delete) User can delete a post
+
+* Bookmark Screen 
+1. (Read/GET) Query posts that users save
+2. (Delete) Delete a bookmark.
+
+* Profile Screen 
+1. (Read/GET) Query logged in user object
+2. (Update/PUT) Update user profile image
+3. (Update/PUT) Update user bio
 
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
