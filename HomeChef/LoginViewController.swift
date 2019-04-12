@@ -17,10 +17,12 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func onTapLogin(_ sender: Any) {
+        
     }
     
     
     @IBAction func onTapSignup(_ sender: Any) {
+        
     }
 }
 
