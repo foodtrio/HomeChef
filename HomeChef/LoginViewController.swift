@@ -14,13 +14,17 @@ class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        assignBackground()
+        
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func onTapLogin(_ sender: Any) {
     func assignBackground() {
         let background = UIImage(named: "Background")
     }
     
+    
+    @IBAction func onTapSignup(_ sender: Any) {
     func signIn(signIn: GIDSignIn!, didSignInForUser user: GIDGoogleUser!,
                 withError error: NSError!) {
         if (error == nil) {
@@ -30,6 +34,7 @@ class LoginViewController: UIViewController {
             print("\(error.localizedDescription)")
         }
     }
+}
 
         // Do any additional setup after loading the view.
     
@@ -45,4 +50,4 @@ class LoginViewController: UIViewController {
     }
     */
 
-}
+
