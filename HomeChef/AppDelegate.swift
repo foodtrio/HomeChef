@@ -8,7 +8,7 @@
 
 import UIKit
 import Firebase
-
+import GoogleSignIn
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,6 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
+        GIDSignIn.sharedInstance().clientID = "1080245960272-rlti6b7s9os7uhd0cmg6hqd7h64lm97m.apps.googleusercontent.com"
+        GIDSignIn.sharedInstance().delegate = self as! GIDSignInDelegate
+        
         return true
     }
 
