@@ -7,17 +7,22 @@
 //
 
 import UIKit
-
+import GoogleSignIn
 class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        assignBackground()
+        
         // Do any additional setup after loading the view.
     }
-    func assignBackground() {
-        let background = UIImage(named: "Background")
+    
+    @IBAction func onTapLogin(_ sender: Any) {
     }
+    
+    
+    @IBAction func onTapSignup(_ sender: Any) {
+    }
+}
 
         // Do any additional setup after loading the view.
     
@@ -33,4 +38,4 @@ class LoginViewController: UIViewController {
     }
     */
 
-}
+
