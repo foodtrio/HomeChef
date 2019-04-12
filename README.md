@@ -75,7 +75,7 @@ This app will be designed to enable users to search and select from over a hundr
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+![Screen Shot 2019-04-11 at 9 13 29 PM](https://user-images.githubusercontent.com/42364123/56005520-de8ecf00-5c9e-11e9-818f-04f9c2a6f73a.png)
 ### Models
 [Add table of models]
 ### Networking
