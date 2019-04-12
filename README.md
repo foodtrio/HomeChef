@@ -83,17 +83,8 @@ This app will be designed to enable users to search and select from over a hundr
 * (Read/GET) Query posts by users’ keywords
 **Recipe feed screen** 
 
-1. (Read/Get) : Query all posts that fall into the user inputted search category criteria. 
-let query = PFQuery(className:"Recipe")
-query.whereKey("author", equalTo: currentUser)
-query.order(byDescending: "createdAt")
-query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
-   if let error = error { 
-      print(error.localizedDescription)
-   } else if let posts = posts {
-      print("Successfully retrieved \(posts.count) posts.")
-   }
-}
+* (Read/Get) : Query all posts that fall into the user inputted search category criteria. 
+![Screen Shot 2019-04-11 at 9 31 45 PM](https://user-images.githubusercontent.com/42364123/56006020-43e3bf80-5ca1-11e9-99f8-0410f90edd1a.png)
 
 * (Create/POST): create a like on a post by the user 
 * (Delete) Delete existing likes.
