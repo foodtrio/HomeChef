@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import GoogleSignIn
 
 class LoginViewController: UIViewController {
 
@@ -17,6 +19,16 @@ class LoginViewController: UIViewController {
     }
     func assignBackground() {
         let background = UIImage(named: "Background")
+    }
+    
+    func signIn(signIn: GIDSignIn!, didSignInForUser user: GIDGoogleUser!,
+                withError error: NSError!) {
+        if (error == nil) {
+            // Perform any operations on signed in user here.
+            // ...
+        } else {
+            print("\(error.localizedDescription)")
+        }
     }
 
         // Do any additional setup after loading the view.

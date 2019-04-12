@@ -13,7 +13,6 @@
         <!--Login View Controller-->
         <scene sceneID="7zh-uI-rdA">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ijs-hM-29U" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="wlx-bu-jZF" customClass="LoginViewController" customModule="HomeChef" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cUd-he-U3b">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -45,6 +44,7 @@
                         <viewLayoutGuide key="safeArea" id="Wun-zb-CEa"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ijs-hM-29U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="895.6521739130435" y="99.776785714285708"/>
         </scene>
