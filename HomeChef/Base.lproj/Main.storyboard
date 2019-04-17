@@ -39,14 +39,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" textContentType="email"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HgH-cs-jHf">
                                 <rect key="frame" x="107" y="372" width="200" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNM-qS-3jQ">
                                 <rect key="frame" x="184" y="421" width="47" height="30"/>
@@ -62,7 +62,7 @@
                     </view>
                     <connections>
                         <outlet property="emailTextField" destination="bVO-hx-gkK" id="uCx-TY-7va"/>
-                        <outlet property="passwordOutlet" destination="HgH-cs-jHf" id="10Z-Kl-j7v"/>
+                        <outlet property="passwordTextField" destination="HgH-cs-jHf" id="flb-tm-JzV"/>
                         <segue destination="fs1-3C-5zy" kind="show" identifier="Segue_To_Signin" id="aaJ-G6-aZV"/>
                     </connections>
                 </viewController>
@@ -70,10 +70,10 @@
             </objects>
             <point key="canvasLocation" x="895.6521739130435" y="99.776785714285708"/>
         </scene>
-        <!--View Controller-->
+        <!--Signed In Controller-->
         <scene sceneID="5lp-8u-PHq">
             <objects>
-                <viewController id="H8Z-O1-Uhw" sceneMemberID="viewController">
+                <viewController id="H8Z-O1-Uhw" customClass="SignedInController" customModule="HomeChef" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V2J-DC-8xW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -81,7 +81,11 @@
                         <viewLayoutGuide key="safeArea" id="s6l-fa-FUB"/>
                     </view>
                     <navigationItem key="navigationItem" id="sNA-B9-aUg">
-                        <barButtonItem key="leftBarButtonItem" title="Log Out" id="zbD-yz-myh"/>
+                        <barButtonItem key="leftBarButtonItem" title="Log Out" id="zbD-yz-myh">
+                            <connections>
+                                <action selector="onLogOut:" destination="H8Z-O1-Uhw" id="t0V-wm-sVM"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cbd-cf-YTj" userLabel="First Responder" sceneMemberID="firstResponder"/>
