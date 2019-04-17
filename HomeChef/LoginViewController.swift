@@ -10,32 +10,31 @@ import UIKit
 import Firebase
 import GoogleSignIn
 
-class LoginViewController: UIViewController {
-
+class LoginViewController: UIViewController, GIDSignInUIDelegate {
+    
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordOutlet: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
+        GIDSignIn.sharedInstance().uiDelegate = self
     }
     
-    @IBAction func onTapLogin(_ sender: Any) {
-        
+    override func viewDidAppear(_ animated: Bool) {
+        if userDefault.bool(forKey: "usersignedin") {
+            performSegue(withIdentifier: "Segue_To_Signin", sender: self)
+        }
+    }
+    
+    @IBAction func onSignIn(_ sender: Any) {
+    }
+    
     func assignBackground() {
         let background = UIImage(named: "Background")
     }
     
-    
-    @IBAction func onTapSignup(_ sender: Any) {
-        
-    func signIn(signIn: GIDSignIn!, didSignInForUser user: GIDGoogleUser!,
-                withError error: NSError!) {
-        if (error == nil) {
-            // Perform any operations on signed in user here.
-            // ...
-        } else {
-            print("\(error.localizedDescription)")
-        }
-    }
 }
 
         // Do any additional setup after loading the view.

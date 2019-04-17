@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F7908AB225810FB00466148 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F7908AA225810FB00466148 /* GoogleService-Info.plist */; };
+		2F0B467D22678C5700A412CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F0B467C22678C5700A412CC /* GoogleService-Info.plist */; };
 		2FCB29722256DE3A00BB6E18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCB29712256DE3A00BB6E18 /* AppDelegate.swift */; };
-		2FCB29742256DE3A00BB6E18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCB29732256DE3A00BB6E18 /* ViewController.swift */; };
 		2FCB29772256DE3A00BB6E18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCB29752256DE3A00BB6E18 /* Main.storyboard */; };
 		2FCB29792256DE3C00BB6E18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FCB29782256DE3C00BB6E18 /* Assets.xcassets */; };
 		2FCB297C2256DE3C00BB6E18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCB297A2256DE3C00BB6E18 /* LaunchScreen.storyboard */; };
@@ -19,10 +18,9 @@
 
 /* Begin PBXFileReference section */
 		2D377467805D1C6D27E4E38C /* Pods-HomeChef.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeChef.release.xcconfig"; path = "Target Support Files/Pods-HomeChef/Pods-HomeChef.release.xcconfig"; sourceTree = "<group>"; };
-		2F7908AA225810FB00466148 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2F0B467C22678C5700A412CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2FCB296E2256DE3A00BB6E18 /* HomeChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FCB29712256DE3A00BB6E18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2FCB29732256DE3A00BB6E18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2FCB29762256DE3A00BB6E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FCB29782256DE3C00BB6E18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FCB297B2256DE3C00BB6E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,14 +71,13 @@
 		2FCB29702256DE3A00BB6E18 /* HomeChef */ = {
 			isa = PBXGroup;
 			children = (
-				2F7908AA225810FB00466148 /* GoogleService-Info.plist */,
 				2FCB29712256DE3A00BB6E18 /* AppDelegate.swift */,
-				2FCB29732256DE3A00BB6E18 /* ViewController.swift */,
 				2FCB29752256DE3A00BB6E18 /* Main.storyboard */,
 				FDE7B1B3226143F3008F9EC4 /* LoginViewController.swift */,
 				2FCB29782256DE3C00BB6E18 /* Assets.xcassets */,
 				2FCB297A2256DE3C00BB6E18 /* LaunchScreen.storyboard */,
 				2FCB297D2256DE3C00BB6E18 /* Info.plist */,
+				2F0B467C22678C5700A412CC /* GoogleService-Info.plist */,
 			);
 			path = HomeChef;
 			sourceTree = "<group>";
@@ -156,7 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FCB297C2256DE3C00BB6E18 /* LaunchScreen.storyboard in Resources */,
-				2F7908AB225810FB00466148 /* GoogleService-Info.plist in Resources */,
+				2F0B467D22678C5700A412CC /* GoogleService-Info.plist in Resources */,
 				2FCB29792256DE3C00BB6E18 /* Assets.xcassets in Resources */,
 				2FCB29772256DE3A00BB6E18 /* Main.storyboard in Resources */,
 			);
@@ -245,7 +242,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDE7B1B4226143F3008F9EC4 /* LoginViewController.swift in Sources */,
-				2FCB29742256DE3A00BB6E18 /* ViewController.swift in Sources */,
 				2FCB29722256DE3A00BB6E18 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
