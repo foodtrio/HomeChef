@@ -24,21 +24,22 @@ This app will be designed to enable users to search and select from over a hundr
 
 **Required Must-have Stories**
 
-* User logs in with their Facebook credentials
-* User searches for and selects a recipe 
-* User can save a recipe for later
-* When a recipe is selected, it will go to a new screen with its details
-* User can take photos of the recipe they recreated and upload it
-* Profile page of the user
+- [x] User is able to sign up and log in with their email address
+- [ ] User searches for and selects a recipe 
+- [ ] User can save a recipe for later
+- [ ] When a recipe is selected, it will go to a new screen with its details
+- [ ] User can take photos of the recipe they recreated and upload it
+- [ ] Profile page of the user
 
 **Optional Nice-to-have Stories**
 
-* User receives points for each recipe they recreate and upload photos of 
-* Leadership board of users with the highest points
+- [x] User logs in through Google
+- [ ] User receives points for each recipe they recreate and upload photos of 
+- [ ] Leadership board of users with the highest points
 
 ### 2. Screen Archetypes
 
-* Login - User must log in through their Facebook account.
+* Login - User must log in with their email.
 * Search Screen - form where user can enter their query
 * Results Screen - where the results of the search query is shown
   * User can select a recipe from the list
@@ -60,7 +61,7 @@ This app will be designed to enable users to search and select from over a hundr
 
 **Flow Navigation** (Screen to Screen)
 
-* Login -> Facebook authorization & verification
+* Login -> Google authorization if user chooses or Search 
 * Search -> Results
 * Camera -> Photos if they wish to pick an image from their library
 * Results -> Recipe details when user selects a recipe
@@ -72,7 +73,10 @@ This app will be designed to enable users to search and select from over a hundr
 ### [BONUS] Digital Wireframes & Mockups
 <img src="https://i.imgur.com/AiL05sy.png" width=300> <img src="https://i.imgur.com/iQwEKN1.png" width=300> <img src="https://i.imgur.com/jXqMrm3.png" width=300> <img src="https://i.imgur.com/kQzRLnL.png" width=300> <img src="https://i.imgur.com/TDdcbuD.png" width=300> <img src="https://i.imgur.com/Ss0QqDf.png" width=300>
 
-### [BONUS] Interactive Prototype
+## Walkthroughs
+<img src="http://g.recordit.co/gEeSZg76Jd.gif" width=300>
+User signs in through Google and logs out
+
 
 ## Schema 
 
