@@ -13,6 +13,7 @@
 		2FCB29792256DE3C00BB6E18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FCB29782256DE3C00BB6E18 /* Assets.xcassets */; };
 		2FCB297C2256DE3C00BB6E18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCB297A2256DE3C00BB6E18 /* LaunchScreen.storyboard */; };
 		4A02550D3B024CBEEF934B97 /* Pods_HomeChef.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4545280ADDDA41D5CD3B82F /* Pods_HomeChef.framework */; };
+		AE33A122227BBD9700FB99A0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE33A121227BBD9700FB99A0 /* GoogleService-Info.plist */; };
 		FDE7B1B4226143F3008F9EC4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE7B1B3226143F3008F9EC4 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		2FCB29782256DE3C00BB6E18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FCB297B2256DE3C00BB6E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FCB297D2256DE3C00BB6E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE33A121227BBD9700FB99A0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B4545280ADDDA41D5CD3B82F /* Pods_HomeChef.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeChef.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6AA76C22F3FE09498AFBC3 /* Pods-HomeChef.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeChef.debug.xcconfig"; path = "Target Support Files/Pods-HomeChef/Pods-HomeChef.debug.xcconfig"; sourceTree = "<group>"; };
 		FDE7B1B3226143F3008F9EC4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 		2FCB29702256DE3A00BB6E18 /* HomeChef */ = {
 			isa = PBXGroup;
 			children = (
+				AE33A121227BBD9700FB99A0 /* GoogleService-Info.plist */,
 				2FCB29712256DE3A00BB6E18 /* AppDelegate.swift */,
 				2FCB29752256DE3A00BB6E18 /* Main.storyboard */,
 				FDE7B1B3226143F3008F9EC4 /* LoginViewController.swift */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FCB297C2256DE3C00BB6E18 /* LaunchScreen.storyboard in Resources */,
+				AE33A122227BBD9700FB99A0 /* GoogleService-Info.plist in Resources */,
 				2FCB29792256DE3C00BB6E18 /* Assets.xcassets in Resources */,
 				2FCB29772256DE3A00BB6E18 /* Main.storyboard in Resources */,
 			);
@@ -396,7 +400,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = joyceh.HomeChef;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lankav.HomeChef;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -415,7 +419,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = joyceh.HomeChef;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lankav.HomeChef;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
